@@ -1,4 +1,4 @@
-{
+{ "homepage": "https://github.com/vivek-yadav41301/Gemini-Clone",
   "name": "gemini",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^7.0.1",
